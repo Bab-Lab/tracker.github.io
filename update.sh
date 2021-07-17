@@ -8,3 +8,7 @@ cd $1
 flutter build web
 cp -r build/web/* $SCRIPT_DIR
 cd $SCRIPT_DIR
+
+git add .
+git commit -am "update webpage"
+git push
